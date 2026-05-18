@@ -7,6 +7,25 @@
     "test:cover": "jest --coverage",
     "lint": "eslint ."
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "JavaScript.js",
+      "mongoose.js",
+      "app.js",
+      "db/**/*.js",
+      "events/**/*.js",
+      "middleware/**/*.js",
+      "routes/**/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
   "dependencies": {
     "express": "^5.2.1",
     "mongodb": "4.1",

@@ -1,12 +1,16 @@
 const app = require('./app');
 
-if (require.main === module) {
-    const PORT = 3001;
-
-    app.listen(PORT, () => {
-        console.log(`Сервер: http://localhost:${PORT}`);
-        console.log(`Список клієнтів (GET): http://localhost:${PORT}/clients`);
+function startServer(port = 3001) {
+    return app.listen(port, () => {
+        console.log(`Сервер: http://localhost:${port}`);
+        console.log(`Список клієнтів (GET): http://localhost:${port}/clients`);
     });
 }
 
+/* istanbul ignore next */
+if (require.main === module) {
+    startServer();
+}
+
 module.exports = app;
+module.exports.startServer = startServer;

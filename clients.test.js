@@ -8,6 +8,137 @@ const mockClient = jest.fn(function(data) {
     this.save = mockSave;
 });
 
+describe('entrypoint files', () => {
+    afterEach(() => {
+        jest.resetModules();
+        jest.dontMock('./app');
+        jest.dontMock('./mongoose');
+    });
+
+    test('JavaScript.js re-exports mongoose entrypoint', () => {
+        const appMock = { mocked: true };
+        jest.doMock('./mongoose', () => appMock);
+
+        expect(require('./JavaScript')).toBe(appMock);
+    });
+
+    test('mongoose.js exports app and starts server through startServer', () => {
+        const serverMock = { close: jest.fn() };
+        const appMock = {
+            listen: jest.fn((port, callback) => {
+                callback();
+                return serverMock;
+            }),
+        };
+        const consoleLogSpy = jest.spyOn(console, 'log').mockImplementation(() => {});
+        jest.doMock('./app', () => appMock);
+
+        const app = require('./mongoose');
+        const result = app.startServer(4444);
+        const defaultResult = app.startServer();
+
+        expect(app).toBe(appMock);
+        expect(result).toBe(serverMock);
+        expect(defaultResult).toBe(serverMock);
+        expect(appMock.listen).toHaveBeenCalledWith(4444, expect.any(Function));
+        expect(appMock.listen).toHaveBeenCalledWith(3001, expect.any(Function));
+        expect(consoleLogSpy).toHaveBeenCalledWith('Сервер: http://localhost:4444');
+        expect(consoleLogSpy).toHaveBeenCalledWith('Список клієнтів (GET): http://localhost:4444/clients');
+        expect(consoleLogSpy).toHaveBeenCalledWith('Сервер: http://localhost:3001');
+        expect(consoleLogSpy).toHaveBeenCalledWith('Список клієнтів (GET): http://localhost:3001/clients');
+
+        consoleLogSpy.mockRestore();
+    });
+});
+
+describe('mongoose models', () => {
+    function createMongooseMock(models = {}) {
+        const Schema = jest.fn(function(definition, options) {
+            this.definition = definition;
+            this.options = options;
+        });
+        Schema.Types = { ObjectId: 'ObjectId' };
+
+        return {
+            Schema,
+            models,
+            model: jest.fn((name, schema, collection) => ({
+                name,
+                schema,
+                collection,
+            })),
+        };
+    }
+
+    afterEach(() => {
+        jest.resetModules();
+        jest.dontMock('mongoose');
+        jest.dontMock('./middleware/deletionLogger');
+    });
+
+    test('client.js creates Client model and attaches middleware', () => {
+        const mongooseMock = createMongooseMock();
+        const attachDeletionLogger = jest.fn();
+        jest.dontMock('./db/client');
+        jest.doMock('mongoose', () => mongooseMock);
+        jest.doMock('./middleware/deletionLogger', () => attachDeletionLogger);
+
+        const Client = require('./db/client');
+
+        expect(mongooseMock.Schema).toHaveBeenCalledWith({}, { strict: false });
+        expect(attachDeletionLogger).toHaveBeenCalledWith(expect.any(mongooseMock.Schema));
+        expect(mongooseMock.model).toHaveBeenCalledWith('Client', expect.any(mongooseMock.Schema), 'clients');
+        expect(Client).toEqual({
+            name: 'Client',
+            schema: expect.any(mongooseMock.Schema),
+            collection: 'clients',
+        });
+    });
+
+    test('client.js reuses existing Client model', () => {
+        const existingClient = { existing: true };
+        const mongooseMock = createMongooseMock({ Client: existingClient });
+        jest.dontMock('./db/client');
+        jest.doMock('mongoose', () => mongooseMock);
+        jest.doMock('./middleware/deletionLogger', () => jest.fn());
+
+        expect(require('./db/client')).toBe(existingClient);
+        expect(mongooseMock.model).not.toHaveBeenCalled();
+    });
+
+    test('deletionLog.js creates DeletionLog model', () => {
+        const mongooseMock = createMongooseMock();
+        jest.doMock('mongoose', () => mongooseMock);
+
+        const DeletionLog = require('./events/deletionLog');
+
+        expect(mongooseMock.Schema).toHaveBeenCalledWith({
+            deletedId: 'ObjectId',
+            documentType: { type: String, default: 'Client' },
+            time: { type: Date, default: Date.now },
+        });
+        expect(mongooseMock.model).toHaveBeenCalledWith(
+            'DeletionLog',
+            expect.any(mongooseMock.Schema),
+            'deletionlogs',
+        );
+        expect(DeletionLog).toEqual({
+            name: 'DeletionLog',
+            schema: expect.any(mongooseMock.Schema),
+            collection: 'deletionlogs',
+        });
+    });
+
+    test('deletionLog.js reuses existing DeletionLog model', () => {
+        const existingDeletionLog = { existing: true };
+        const mongooseMock = createMongooseMock({ DeletionLog: existingDeletionLog });
+        jest.doMock('mongoose', () => mongooseMock);
+
+        expect(require('./events/deletionLog')).toBe(existingDeletionLog);
+        expect(mongooseMock.model).not.toHaveBeenCalled();
+    });
+});
+
 mockClient.find = jest.fn();
 mockClient.findByIdAndDelete = jest.fn();
 

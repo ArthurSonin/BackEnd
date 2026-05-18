@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1779135577001" clover="3.2.0">
-  <project timestamp="1779135577002" name="All files">
-    <metrics statements="48" coveredstatements="48" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8" elements="64" coveredelements="64" complexity="0" loc="48" ncloc="48" packages="4" files="4" classes="4"/>
+<coverage generated="1779147740773" clover="3.2.0">
+  <project timestamp="1779147740773" name="All files">
+    <metrics statements="65" coveredstatements="65" conditionals="13" coveredconditionals="13" methods="10" coveredmethods="10" elements="88" coveredelements="88" complexity="0" loc="65" ncloc="65" packages="5" files="8" classes="8"/>
     <package name="Lab4">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="15" coveredstatements="15" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="JavaScript.js" path="D:\універ\2 куркурс\BackEnd -\Lab4\JavaScript.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
       <file name="app.js" path="D:\універ\2 куркурс\BackEnd -\Lab4\app.js">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
@@ -15,9 +19,27 @@
         <line num="10" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
       </file>
+      <file name="mongoose.js" path="D:\універ\2 куркурс\BackEnd -\Lab4\mongoose.js">
+        <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
     </package>
     <package name="Lab4.db">
-      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="client.js" path="D:\універ\2 куркурс\BackEnd -\Lab4\db\client.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
       <file name="connection.js" path="D:\універ\2 куркурс\BackEnd -\Lab4\db\connection.js">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
         <line num="1" count="4" type="stmt"/>
@@ -29,6 +51,16 @@
         <line num="13" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
         <line num="19" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="Lab4.events">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
+      <file name="deletionLog.js" path="D:\універ\2 куркурс\BackEnd -\Lab4\events\deletionLog.js">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="2" type="stmt"/>
       </file>
     </package>
     <package name="Lab4.middleware">
