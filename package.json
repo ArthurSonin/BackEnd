@@ -4,10 +4,23 @@
   "description": "",
   "main": "JavaScript.js",
   "scripts": {
-    "start": "node JavaScript.js",
+    "start": "node bin/www",
     "test": "jest",
     "test:cover": "jest --coverage",
     "lint": "eslint ."
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "*.js",
+      "bin/www",
+      "routes/**/*.js",
+      "middleware/**/*.js",
+      "events/**/*.js",
+      "db/**/*.js",
+      "!**/*.test.js",
+      "!coverage/**",
+      "!node_modules/**"
+    ]
   },
   "dependencies": {
     "express": "^5.2.1",

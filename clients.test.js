@@ -5,7 +5,13 @@ jest.mock('./db/connection', () => ({
     query: jest.fn()
 }));
 
+jest.mock('./events/statsEmitter', () => ({
+    emit: jest.fn()
+}));
+
 const db = require('./db/connection');
+const statsEmitter = require('./events/statsEmitter');
+const realApp = require('./app');
 const clientsRouter = require('./routes/clients');
 
 const createApp = () => {
@@ -23,6 +29,7 @@ describe('Clients API', () => {
     beforeEach(() => {
         app = createApp();
         db.query.mockReset();
+        statsEmitter.emit.mockClear();
     });
 
     it('returns all clients', async () => {
@@ -142,5 +149,52 @@ describe('Clients API', () => {
 
         expect(res.statusCode).toBe(500);
         expect(res.body).toEqual({ error: 'Database delete failed' });
+    });
+});
+
+describe('App middleware', () => {
+    beforeEach(() => {
+        db.query.mockReset();
+        statsEmitter.emit.mockClear();
+    });
+
+    it('serves clients through the real app and records request stats', async () => {
+        db.query.mockImplementation((sql, callback) => {
+            callback(null, []);
+        });
+
+        const res = await request(realApp)
+            .get('/clients?email=test@example.com&token=secret')
+            .set('User-Agent', 'jest');
+
+        expect(res.statusCode).toBe(200);
+        expect(res.headers['x-response-time']).toMatch(/ms$/);
+        expect(statsEmitter.emit).toHaveBeenCalledWith(
+            'requestCompleted',
+            expect.objectContaining({
+                path: '/',
+                method: 'GET',
+                queryString: expect.objectContaining({
+                    email: '***',
+                    token: '***'
+                }),
+                userAgent: 'jest',
+                executionTime: expect.stringMatching(/ms$/)
+            })
+        );
+    });
+
+    it('limits too many requests from one IP address', async () => {
+        db.query.mockImplementation((sql, callback) => {
+            callback(null, []);
+        });
+
+        let res;
+        for (let i = 0; i < 51; i += 1) {
+            res = await request(realApp).get('/clients');
+        }
+
+        expect(res.statusCode).toBe(429);
+        expect(res.body).toEqual({ error: 'Too Many Requests' });
     });
 });

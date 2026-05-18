@@ -1,29 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1779129796697" clover="3.2.0">
-  <project timestamp="1779129796697" name="All files">
-    <metrics statements="20" coveredstatements="20" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6" elements="34" coveredelements="34" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
-    <file name="clients.js" path="D:\універ\2 куркурс\BackEnd -\Lab3\routes\clients.js">
+<coverage generated="1779146903172" clover="3.2.0">
+  <project timestamp="1779146903172" name="All files">
+    <metrics statements="88" coveredstatements="88" conditionals="36" coveredconditionals="36" methods="15" coveredmethods="15" elements="139" coveredelements="139" complexity="0" loc="88" ncloc="88" packages="6" files="8" classes="8"/>
+    <package name="Lab3">
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="JavaScript.js" path="D:\універ\2 куркурс\BackEnd -\Lab3\JavaScript.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="app.js" path="D:\універ\2 куркурс\BackEnd -\Lab3\app.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Lab3.bin">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="www" path="D:\універ\2 куркурс\BackEnd -\Lab3\bin\www">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Lab3.db">
+      <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="8" methods="0" coveredmethods="0"/>
+      <file name="connection.js" path="D:\універ\2 куркурс\BackEnd -\Lab3\db\connection.js">
+        <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="8" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Lab3.events">
+      <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="statsEmitter.js" path="D:\універ\2 куркурс\BackEnd -\Lab3\events\statsEmitter.js">
+        <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="13" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="Lab3.middleware">
+      <metrics statements="33" coveredstatements="33" conditionals="14" coveredconditionals="14" methods="7" coveredmethods="7"/>
+      <file name="stats.js" path="D:\універ\2 куркурс\BackEnd -\Lab3\middleware\stats.js">
+        <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="104" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="102" type="stmt"/>
+        <line num="7" count="102" type="stmt"/>
+        <line num="8" count="306" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="102" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="52" type="stmt"/>
+        <line num="16" count="52" type="stmt"/>
+        <line num="26" count="52" type="stmt"/>
+        <line num="29" count="52" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+      </file>
+      <file name="timingAndLimit.js" path="D:\універ\2 куркурс\BackEnd -\Lab3\middleware\timingAndLimit.js">
+        <metrics statements="20" coveredstatements="20" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="53" type="stmt"/>
+        <line num="11" count="53" type="stmt"/>
+        <line num="13" count="53" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="53" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="18" count="51" type="stmt"/>
+        <line num="19" count="51" type="stmt"/>
+        <line num="20" count="51" type="cond" truecount="4" falsecount="0"/>
+        <line num="21" count="50" type="stmt"/>
+        <line num="22" count="50" type="stmt"/>
+        <line num="24" count="50" type="stmt"/>
+        <line num="25" count="50" type="stmt"/>
+        <line num="28" count="51" type="stmt"/>
+        <line num="31" count="51" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="Lab3.routes">
       <metrics statements="20" coveredstatements="20" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="2" type="stmt"/>
-      <line num="9" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="15" count="2" type="stmt"/>
-      <line num="16" count="2" type="stmt"/>
-      <line num="18" count="2" type="stmt"/>
-      <line num="19" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="25" count="3" type="stmt"/>
-      <line num="27" count="3" type="stmt"/>
-      <line num="28" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="31" count="1" type="stmt"/>
-      <line num="35" count="1" type="stmt"/>
-    </file>
+      <file name="clients.js" path="D:\універ\2 куркурс\BackEnd -\Lab3\routes\clients.js">
+        <metrics statements="20" coveredstatements="20" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="52" type="stmt"/>
+        <line num="9" count="52" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="51" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

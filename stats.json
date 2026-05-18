@@ -735,5 +735,77 @@
     "queryString": {},
     "executionTime": "failed",
     "timestamp": "2026-05-14T09:18:27.290Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "executionTime": "351.340ms",
+    "timestamp": "2026-05-18T23:10:12.161Z"
+  },
+  {
+    "path": "/favicon.ico",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-05-18T23:10:12.750Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "1.823ms",
+    "timestamp": "2026-05-18T23:11:06.806Z"
+  },
+  {
+    "path": "/",
+    "method": "POST",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "54.986ms",
+    "timestamp": "2026-05-18T23:12:10.508Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "1.423ms",
+    "timestamp": "2026-05-18T23:12:33.423Z"
+  },
+  {
+    "path": "/15",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "15"
+    },
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "33.558ms",
+    "timestamp": "2026-05-18T23:14:04.955Z"
+  },
+  {
+    "path": "/clients/15",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "failed",
+    "timestamp": "2026-05-18T23:14:21.285Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "1.752ms",
+    "timestamp": "2026-05-18T23:14:24.278Z"
   }
 ]
