@@ -1,0 +1,739 @@
+[
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-04-29T16:12:26.985Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-04-29T16:12:49.440Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-04-29T16:12:50.128Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-04-29T16:12:52.491Z"
+  },
+  {
+    "timestamp": "2026-04-29T16:16:52.898Z",
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36",
+    "executionTime": "N/A"
+  },
+  {
+    "timestamp": "2026-04-29T16:16:52.967Z",
+    "path": "/.well-known/appspecific/com.chrome.devtools.json",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "N/A"
+  },
+  {
+    "timestamp": "2026-04-29T16:16:53.029Z",
+    "path": "/favicon.ico",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36",
+    "executionTime": "N/A"
+  },
+  {
+    "timestamp": "2026-04-29T16:17:12.446Z",
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36",
+    "executionTime": "N/A"
+  },
+  {
+    "timestamp": "2026-04-29T16:17:12.501Z",
+    "path": "/.well-known/appspecific/com.chrome.devtools.json",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "N/A"
+  },
+  {
+    "timestamp": "2026-04-29T16:19:10.366Z",
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36",
+    "executionTime": "N/A"
+  },
+  {
+    "timestamp": "2026-04-29T16:19:10.436Z",
+    "path": "/.well-known/appspecific/com.chrome.devtools.json",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "N/A"
+  },
+  {
+    "timestamp": "2026-04-29T16:19:24.855Z",
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36",
+    "executionTime": "N/A"
+  },
+  {
+    "timestamp": "2026-04-29T16:19:24.914Z",
+    "path": "/.well-known/appspecific/com.chrome.devtools.json",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "N/A"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Mobile Safari/537.36",
+    "executionTime": "6.392ms",
+    "timestamp": "2026-04-29T16:23:52.121Z"
+  },
+  {
+    "path": "/.well-known/appspecific/com.chrome.devtools.json",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-04-29T16:23:52.175Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-05-04T06:19:09.762Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "124.997ms",
+    "timestamp": "2026-05-04T06:19:19.156Z"
+  },
+  {
+    "path": "/favicon.ico",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-05-04T06:19:19.226Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-05-06T19:05:07.951Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-05-06T19:05:35.466Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-05-06T19:05:45.932Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-05-06T19:06:00.229Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-05-06T19:06:24.111Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "117.073ms",
+    "timestamp": "2026-05-06T19:07:10.301Z"
+  },
+  {
+    "path": "/favicon.ico",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-05-06T19:07:10.362Z"
+  },
+  {
+    "path": "/clients/5",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-05-06T19:08:28.542Z"
+  },
+  {
+    "path": "/clients/5",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-05-06T19:09:15.130Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "1.405ms",
+    "timestamp": "2026-05-06T19:09:32.070Z"
+  },
+  {
+    "path": "/.well-known/appspecific/com.chrome.devtools.json",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    "executionTime": "failed",
+    "timestamp": "2026-05-06T19:10:55.274Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "2.221ms",
+    "timestamp": "2026-05-06T19:14:17.735Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "0.922ms",
+    "timestamp": "2026-05-06T19:15:10.293Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "0.975ms",
+    "timestamp": "2026-05-06T19:15:27.464Z"
+  },
+  {
+    "path": "/clients",
+    "method": "POST",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "67.470ms",
+    "timestamp": "2026-05-06T19:15:34.804Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "1.068ms",
+    "timestamp": "2026-05-06T19:15:39.632Z"
+  },
+  {
+    "path": "/clients/6",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "6"
+    },
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "43.264ms",
+    "timestamp": "2026-05-06T19:16:53.747Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "1.162ms",
+    "timestamp": "2026-05-06T19:16:57.975Z"
+  },
+  {
+    "path": "/clients",
+    "method": "POST",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "3.445ms",
+    "timestamp": "2026-05-06T19:17:08.514Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "0.813ms",
+    "timestamp": "2026-05-06T19:17:15.741Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "93.466ms",
+    "timestamp": "2026-05-06T23:52:51.907Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+    "executionTime": "105.055ms",
+    "timestamp": "2026-05-13T22:31:52.483Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "1.035ms",
+    "timestamp": "2026-05-13T22:32:13.991Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "218.477ms",
+    "timestamp": "2026-05-14T07:08:08.584Z"
+  },
+  {
+    "path": "/clients",
+    "method": "POST",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "29.138ms",
+    "timestamp": "2026-05-14T07:08:08.626Z"
+  },
+  {
+    "path": "/clients/999999",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "999999"
+    },
+    "queryString": {},
+    "executionTime": "failed",
+    "timestamp": "2026-05-14T07:08:08.640Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "1.541ms",
+    "timestamp": "2026-05-14T07:09:24.068Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "1.293ms",
+    "timestamp": "2026-05-14T07:21:53.142Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "0.872ms",
+    "timestamp": "2026-05-14T07:22:23.416Z"
+  },
+  {
+    "path": "/clients/7",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "7"
+    },
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "37.028ms",
+    "timestamp": "2026-05-14T07:24:28.161Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "1.289ms",
+    "timestamp": "2026-05-14T07:25:50.252Z"
+  },
+  {
+    "path": "/clients",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "2.456ms",
+    "timestamp": "2026-05-14T07:25:58.529Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "50.316ms",
+    "timestamp": "2026-05-14T07:38:33.672Z"
+  },
+  {
+    "path": "/",
+    "method": "POST",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "14.659ms",
+    "timestamp": "2026-05-14T07:38:33.699Z"
+  },
+  {
+    "path": "/999999",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "999999"
+    },
+    "queryString": {},
+    "executionTime": "failed",
+    "timestamp": "2026-05-14T07:38:33.705Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "38.262ms",
+    "timestamp": "2026-05-14T07:41:54.053Z"
+  },
+  {
+    "path": "/",
+    "method": "POST",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "4.211ms",
+    "timestamp": "2026-05-14T07:41:54.080Z"
+  },
+  {
+    "path": "/999999",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "999999"
+    },
+    "queryString": {},
+    "executionTime": "failed",
+    "timestamp": "2026-05-14T07:41:54.087Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "53.002ms",
+    "timestamp": "2026-05-14T07:44:14.724Z"
+  },
+  {
+    "path": "/",
+    "method": "POST",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "4.605ms",
+    "timestamp": "2026-05-14T07:44:14.762Z"
+  },
+  {
+    "path": "/999999",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "999999"
+    },
+    "queryString": {},
+    "executionTime": "failed",
+    "timestamp": "2026-05-14T07:44:14.776Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "43.784ms",
+    "timestamp": "2026-05-14T07:49:14.007Z"
+  },
+  {
+    "path": "/",
+    "method": "POST",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "3.789ms",
+    "timestamp": "2026-05-14T07:49:14.038Z"
+  },
+  {
+    "path": "/999999",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "999999"
+    },
+    "queryString": {},
+    "executionTime": "failed",
+    "timestamp": "2026-05-14T07:49:14.047Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "31.156ms",
+    "timestamp": "2026-05-14T07:50:46.453Z"
+  },
+  {
+    "path": "/12",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "12"
+    },
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "5.573ms",
+    "timestamp": "2026-05-14T07:51:05.182Z"
+  },
+  {
+    "path": "/11",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "11"
+    },
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "6.435ms",
+    "timestamp": "2026-05-14T07:51:09.506Z"
+  },
+  {
+    "path": "/10",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "10"
+    },
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "2.624ms",
+    "timestamp": "2026-05-14T07:51:11.531Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "0.982ms",
+    "timestamp": "2026-05-14T07:51:18.007Z"
+  },
+  {
+    "path": "/clients/9",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "failed",
+    "timestamp": "2026-05-14T07:51:32.266Z"
+  },
+  {
+    "path": "/8",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "8"
+    },
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "3.908ms",
+    "timestamp": "2026-05-14T07:51:43.675Z"
+  },
+  {
+    "path": "/9",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "9"
+    },
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "4.425ms",
+    "timestamp": "2026-05-14T07:51:45.334Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "1.955ms",
+    "timestamp": "2026-05-14T07:51:49.194Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "221.881ms",
+    "timestamp": "2026-05-14T08:33:54.906Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "2.671ms",
+    "timestamp": "2026-05-14T08:39:13.553Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "92.464ms",
+    "timestamp": "2026-05-14T09:06:24.043Z"
+  },
+  {
+    "path": "/",
+    "method": "POST",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "86.184ms",
+    "timestamp": "2026-05-14T09:06:24.160Z"
+  },
+  {
+    "path": "/999999",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "999999"
+    },
+    "queryString": {},
+    "executionTime": "failed",
+    "timestamp": "2026-05-14T09:06:24.178Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "28.505ms",
+    "timestamp": "2026-05-14T09:12:56.400Z"
+  },
+  {
+    "path": "/13",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "13"
+    },
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "28.128ms",
+    "timestamp": "2026-05-14T09:13:05.185Z"
+  },
+  {
+    "path": "/clients/13",
+    "method": "GET",
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "failed",
+    "timestamp": "2026-05-14T09:13:08.981Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "userAgent": "Thunder Client (https://www.thunderclient.com)",
+    "executionTime": "0.937ms",
+    "timestamp": "2026-05-14T09:13:11.908Z"
+  },
+  {
+    "path": "/",
+    "method": "GET",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "45.387ms",
+    "timestamp": "2026-05-14T09:18:27.248Z"
+  },
+  {
+    "path": "/",
+    "method": "POST",
+    "pathVariables": {},
+    "queryString": {},
+    "executionTime": "4.711ms",
+    "timestamp": "2026-05-14T09:18:27.282Z"
+  },
+  {
+    "path": "/999999",
+    "method": "DELETE",
+    "pathVariables": {
+      "id": "999999"
+    },
+    "queryString": {},
+    "executionTime": "failed",
+    "timestamp": "2026-05-14T09:18:27.290Z"
+  }
+]
